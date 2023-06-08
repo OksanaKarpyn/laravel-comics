@@ -15,4 +15,5 @@
             </ul>
         </div>
     </nav>
+    <div class="banner"></div>
 </header>

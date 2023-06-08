@@ -12,13 +12,13 @@ nav {
 
         li {
             margin-top: 20px;
-            margin: 0px 20px;
+            margin: 0px 5px;
             max-height: 100px;
             display: inline-block;
             align-items: center;
 
             a {
-                font-size: 1rem;
+                //font-size: 1rem;
                 font-weight: bold;
                 color: black;
                 text-decoration: none;
@@ -34,4 +34,10 @@ nav {
 
         }
     }
+}
+.banner {
+    height: 400px;
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+
 }
