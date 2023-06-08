@@ -1,0 +1,60 @@
+.background {
+    background-color: #1C1C1C;
+
+    .banner {
+        height: 400px;
+        background-image: url(../../public/img/jumbotron.jpg);
+        background-size: cover;
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+
+        .card {
+            width: calc(100% / 7);
+            background-color: #1C1C1C;
+            color: #fff;
+        
+            img {
+                width: 100%;
+               // aspect-ratio: 1;
+                object-fit: cover;
+            }
+        
+            h3 {
+                font-size: 1rem;
+                color: #fff;
+            }
+        
+            span {
+                color: #fff;
+            }
+        }
+
+
+
+        .button {
+            text-transform: uppercase;
+            background-color: #0670D3;
+            color: white;
+            position: absolute;
+            top: -20px;
+            z-index: 1;
+            font-size: 1.3rem;
+        }
+
+        .load {
+            text-transform: uppercase;
+            background-color: #0670D3;
+            color: white;
+            text-decoration: none;
+            margin: auto;
+        }
+    }
+
+}

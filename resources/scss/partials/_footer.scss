@@ -1,0 +1,19 @@
+.background {
+    background-color: #303030;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0px;
+
+    li {
+        padding: 0px 10px;
+
+        h2 {
+            color: #0282F9;
+            font-size: 1.2rem;
+        }
+    }
+}

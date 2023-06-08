@@ -11,6 +11,16 @@
 </head>
 
 <body>
+    <!-- includiamo nav header per le tutte paggine  -->
+    @include('partials.header')
+
+    <main>
+        @yield( 'content' )
+    </main>
+    <!-- includiamo il footer per tutte le pagine -->
+
+
+    @include('partials.footer')
 
 </body>
 
