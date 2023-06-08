@@ -62,7 +62,7 @@
 
         </div>
         <div class="logo">
-            <img src="{{Vite::asset('resources/images/dc-logo-bg.png') }}" alt="foto">
+            <img class="img-dc" src="{{Vite::asset('resources/images/dc-logo-bg.png') }}" alt="foto">
         </div>
     </div>
 </div>
@@ -77,11 +77,13 @@
         <div class="list-footer">
             <ul class="ul-footer">
                 <li>
-                    <h2 class="h2-foo ter">FOLLOW US</h2>
+                    <h2 class="h2-footer">FOLLOW US</h2>
                 </li>
-                <li v-for="(item, index) in  listIcon " :key="index">
-                    <a href="#"><img :src="item.icon" alt="icon"></a>
-                </li>
+                <li><a href="#"><img src="{{Vite::asset('resources/images/footer-facebook.png')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{Vite::asset('resources/images/footer-twitter.png')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{Vite::asset('resources/images/footer-youtube.png')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" alt=""></a></li>
+                <li><a href="#"><img src="{{Vite::asset('resources/images/footer-periscope.png')}}" alt=""></a></li>
             </ul>
         </div>
     </div>
