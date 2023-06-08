@@ -5,13 +5,13 @@
         </div>
         <div>
             <ul class="">
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
+                <li><a href="{{ route('home') }}">CHARACTERS</a></li>
+                <li><a href="{{ route('singleCard') }}">COMICS</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">COLLECTIBLES</a></li>
+                <li><a href="#">VIDEOS</a></li>
             </ul>
         </div>
     </nav>

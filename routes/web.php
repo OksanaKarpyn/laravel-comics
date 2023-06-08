@@ -17,3 +17,9 @@ Route::get('/', function () {
     $comics= config('comics.db.comics');
     return view('pages.home', compact('comics'));
 })->name('home');
+
+
+Route::get('/singleCard', function () {
+
+    return view('pages.singleCard');
+})->name('singleCard');
